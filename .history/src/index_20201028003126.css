@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  font-family: "Neue Montreal";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Montreal';
+  src: url(font/NeueMontreal-Regular.woff);
+  font-style: normal;
+  font-weight: 100;
+
+}
+@font-face {
+  font-family: 'Montreal';
+  src: url(font/NeueMontreal-RegularItalic.woff);
+  font-style: italic;
+  font-weight: 100;
+}
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+}
+
+.trails-text {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  line-height:70px;
+  color: black;
+  font-size: 4em;
+  font-weight: 100;
+  text-transform: uppercase;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 400px;
+  padding-top: 2rem;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover{
+  font-style: italic;
+}
+.pegaso {
+  position: absolute;
+  top: 300px;
+  width: 600px;
+  left: 650px;
+
+}
+
+.titulos {
+  font-size: 55px;
+  font-family: 'Montreal';
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.tituloin{
+  font-size: 45px;
+  font-family: 'Montreal';
+  font-style: italic;
+  font-weight: 100;
+
+}
+.textos {
+  font-size: 30px;
+  font-family: 'Montreal';
+  font-weight: 100;
+}
+.container{
+  text-align: right;
+}
+.boton{
+  padding-right: 100%;
+}
+
+.contdig {
+  position: absolute;
+  top: 360px;
+  left: 1175px;
+  width: 300px;
+  height: 200px;
+
+  
+  transform: rotate(90deg);
+}
+.cons {
+  position: absolute;
+  left: 650px;
+  top: 190px;
+
+}
+.res {
+  position: absolute;
+  top: 380px;
+  left: 410px;
+  transform: rotate(270deg);
+}
+.rev {
+  position: absolute;
+  top: 630px;
+  left: 650px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Montreal';
+  font-weight: 100;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 3rem;
+  text-align: left;
+}
+table{
+  width: 80%;
+}
+td { 
+  width: 33%;
+}
+.direc {
+  float: left;
+  padding-left: 2rem;
+}
+.contac {
+  display: inline-block;
+  padding-left: 10rem;
+  
+}
+.inst {
+  float: right;
+  padding-right: 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  font-style: italic;
+}
+@media screen and (min-width: 780px) and (max-width: 1440px) { 
+  .logo {
+    display: block;
+    margin: auto;
+    width: 400px;
+    padding-top: 2rem;
+  }
+  .pegaso {
+    position: absolute;
+    top: 300px;
+    width: 550px;
+    left: 30%;
+  
+  }
+  .titulos {
+    font-size: 50px;
+    font-family: 'Montreal';
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  .contdig {
+    position: absolute;
+    top: 360px;
+    left: 65%;
+    transform: rotate(90deg);
+  }
+  .cons {
+    position: absolute;
+    left: 30%;
+    top: 195px;
+  
+  }
+  .res {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 44%;
+    transform: rotate(270deg);
+  }
+  .rev {
+    position: absolute;
+    top: 600px;
+    left: 30%;
+  }
+  .tituloin{
+    font-size: 45px;
+    font-family: 'Montreal';
+    font-style: italic;
+    font-weight: 100;
+  
+  }
+  .textos {
+    font-size: 30px;
+    font-family: 'Montreal';
+    font-weight: 100;
+  }
+} 
+
+@media screen and (min-width: 480px) and (max-width: 780px) { 
+  .logo {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 2rem;
+  }
+  .pegaso {
+    position: absolute;
+    top: 350px;
+    width: 420px;
+    left: 20%;
+  
+  }
+  .titulos {
+    font-size: 35px;
+    font-family: 'Montreal';
+    font-weight: 100;
+    letter-spacing: 1.5px;
+  }
+  .contdig {
+    position: absolute;
+    top: 410px;
+    left: 56%;
+    transform: rotate(90deg);
+  }
+  .cons {
+    position: absolute;
+    left: 20%;
+    top: 285px;
+  
+  }
+  .res {
+    position: absolute;
+    top: 415px;
+    left: 0;
+    right: 65%;
+    transform: rotate(270deg);
+  }
+  .rev {
+    position: absolute;
+    top: 590px;
+    left: 20%;
+  }
+  .tituloin{
+    font-size: 35px;
+    font-family: 'Montreal';
+    font-style: italic;
+    font-weight: 100;
+  
+  }
+  .textos {
+    font-size: 20px;
+    font-family: 'Montreal';
+    font-weight: 100;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Montreal';
+    font-weight: 100;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 3rem;
+    text-align: left;
+  }
+  table{
+    width: 100%;
+  }
+  td { 
+    width: 33%;
+  }
+  .contac {
+    display: inline-block;
+    padding-left: 3rem;
+    
+  }
+}  
+@media screen and (min-width: 300px) and (max-width: 480px) { 
+  .logo {
+    display: block;
+    margin: auto;
+    width: 180px;
+    padding-top: 2rem;
+  }
+  .pegaso {
+    position: absolute;
+    top: 250px;
+    width: 250px;
+    left: 15%;
+  
+  }
+  .titulos {
+    font-size: 20px;
+    font-family: 'Montreal';
+    font-weight: 100;
+    
+  }
+  .contdig {
+    position: absolute;
+    top: 305px;
+    left: 32%;
+    transform: rotate(90deg);
+  }
+  .cons {
+    position: absolute;
+    left: 15%;
+    top: 210px;
+  
+  }
+  .res {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 76%;
+    transform: rotate(270deg);
+  }
+  .rev {
+    position: absolute;
+    top: 390px;
+    left: 15%;
+  }
+  .tituloin{
+    font-size: 20px;
+    font-family: 'Montreal';
+    font-style: italic;
+    font-weight: 100;
+  
+  }
+  .textos {
+    font-size: 12px;
+    font-family: 'Montreal';
+    font-weight: 100;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Montreal';
+    font-weight: 100;
+    font-size: 7px;
+    color: white;
+    padding-bottom: 3rem;
+    text-align: left;
+  }
+  table{
+    width: 100%;
+  }
+  td { 
+    width: 33%;
+  }
+  .contac {
+    display: inline-block;
+    padding-left: 1rem;
+    
+  }
+}  

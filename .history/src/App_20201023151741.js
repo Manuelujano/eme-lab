@@ -1,0 +1,40 @@
+import React from 'react';
+import Header from './components/Header';
+import Motion from './components/Motion';
+import Pegaso from './components/Pegaso';
+import { AnimatePresence } from 'framer-motion';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Prueba from './components/Prueba';
+import Trail from './components/Trail';
+
+
+
+
+function App() {
+  return (
+  <Router>
+  <Header/>
+  <Route
+  render={({location})=> (
+    <AnimetaPresence initial={false} exitBeforeEnter>
+      <Switch location={location} key={location.pathname}>
+      <Route exact path='/' render={<Pegaso/>}/>
+      <Route path='/digital' render={<Prueba/>}/>
+      </Switch>
+    </AnimetaPresence>
+  )}
+  
+  />
+  
+  <Pegaso></Pegaso>
+   {/* <Prueba></Prueba> */}
+   {/* <Trail></Trail> */}
+
+  {/*  <Motion></Motion> */}
+
+  </Router>
+  );
+}
+
+export default App;

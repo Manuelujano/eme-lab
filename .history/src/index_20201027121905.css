@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: "Neue Montreal";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Montreal';
+  src: url(font/NeueMontreal-Regular.woff);
+  font-style: normal;
+  font-weight: 100;
+
+}
+@font-face {
+  font-family: 'Montreal';
+  src: url(font/NeueMontreal-RegularItalic.woff);
+  font-style: italic;
+  font-weight: 100;
+}
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+}
+
+.trails-text {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  line-height:70px;
+  color: black;
+  font-size: 4em;
+  font-weight: 100;
+  text-transform: uppercase;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 400px;
+  padding-top: 2rem;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+
+}
+.pegaso {
+  position: absolute;
+  top: 300px;
+  width: 600px;
+  left: 650px;
+
+}
+
+.titulos {
+  font-size: 55px;
+  font-family: 'Montreal';
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.contdig {
+  position: absolute;
+  top: 360px;
+  left: 1175px;
+  width: 300px;
+  height: 200px;
+
+  
+  transform: rotate(90deg);
+}
+.cons {
+  position: absolute;
+  left: 650px;
+
+}
+.res {
+  position: absolute;
+  top: 380px;
+  left: 410px;
+  transform: rotate(270deg);
+}
+.rev {
+  position: absolute;
+  top: 630px;
+  left: 650px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1440px) { 
+  .logo {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 2rem;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    min-width: 780px;
+    justify-content: center;
+    align-items: center;
+
+}
+} 
+
+@media screen and (min-width: 480px) and (max-width: 780px) { 
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .logo {
+
+    width: 200px;
+    padding-top: 2rem;
+  }
+}  
+@media screen and (min-width: 300px) and (max-width: 480px) { 
+    header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .logo {
+    width: 200px;
+    padding-top: 2rem;
+  }
+  .flex-container {
+    display: flex;
+    max-width: 480px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+
+}
+
+  .titulos {
+  font-size: 20px;
+  font-family: 'Montreal';
+  font-weight: 100;
+  letter-spacing: 1px;
+  }
+  .pegaso {
+    top: 35%;
+    width: 250px;
+    left: 20%;
+  }
+  .cons {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  
+  }
+  .res {
+    position: absolute;
+    top: 40%;
+    align-content: flex-start;
+    transform: rotate(270deg);
+  }
+  .contdig {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: rotate(90deg);
+  }
+  .rev {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+}  
