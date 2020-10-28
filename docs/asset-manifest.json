@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.befbcc0f.chunk.css",
+    "main.js": "/static/js/main.e351d41c.chunk.js",
+    "main.js.map": "/static/js/main.e351d41c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d4ec9a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d4ec9a6.js.map",
+    "static/js/2.032d5063.chunk.js": "/static/js/2.032d5063.chunk.js",
+    "static/js/2.032d5063.chunk.js.map": "/static/js/2.032d5063.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ddbbf91183e455f3581eb07cfde3c80.js": "/precache-manifest.9ddbbf91183e455f3581eb07cfde3c80.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.befbcc0f.chunk.css.map": "/static/css/main.befbcc0f.chunk.css.map",
+    "static/js/2.032d5063.chunk.js.LICENSE.txt": "/static/js/2.032d5063.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/NeueMontreal-RegularItalic.b5a18a61.otf",
+    "static/media/logoblanco.png": "/static/media/logoblanco.e1ba326c.png",
+    "static/media/pegaso.png": "/static/media/pegaso.d6dd1183.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d4ec9a6.js",
+    "static/js/2.032d5063.chunk.js",
+    "static/css/main.befbcc0f.chunk.css",
+    "static/js/main.e351d41c.chunk.js"
+  ]
+}
